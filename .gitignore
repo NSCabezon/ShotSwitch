@@ -12,3 +12,7 @@ build/
 # Archives / distribution
 *.dmg
 *.zip
+
+# Release output
+build/
+dist/

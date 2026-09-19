@@ -40,3 +40,11 @@ Or open `ScreenshotFormat.xcodeproj` in Xcode and press ⌘R. Copy the resulting
 ## Why no App Store
 
 Writing to `com.apple.screencapture` requires the app to run **outside** the App Sandbox, which the Mac App Store does not allow. Distribute it as a notarized Developer ID build instead.
+
+## Release (Developer ID + notarization)
+
+```sh
+scripts/release.sh
+```
+
+Produces `dist/ScreenshotFormat-<version>.dmg`, signed with Developer ID, notarized and stapled. One-time setup is described at the top of the script.
