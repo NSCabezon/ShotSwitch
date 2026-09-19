@@ -1,6 +1,6 @@
 //
 //  MenuContent.swift
-//  ScreenshotFormat
+//  ShotSwitch
 //
 
 import SwiftUI

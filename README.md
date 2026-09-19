@@ -1,4 +1,4 @@
-# ScreenshotFormat
+# ShotSwitch
 
 Menu bar app for macOS that switches the screenshot format (⌘⇧3 / ⌘⇧4 / ⌘⇧5) with one click.
 
@@ -32,10 +32,10 @@ Changes apply immediately to the keyboard shortcuts. The `screencapture` CLI ign
 ## Build
 
 ```sh
-xcodebuild -project ScreenshotFormat.xcodeproj -scheme ScreenshotFormat -configuration Release build
+xcodebuild -project ShotSwitch.xcodeproj -scheme ShotSwitch -configuration Release build
 ```
 
-Or open `ScreenshotFormat.xcodeproj` in Xcode and press ⌘R. Copy the resulting `.app` to `/Applications` and enable "Abrir al iniciar sesión" from the menu.
+Or open `ShotSwitch.xcodeproj` in Xcode and press ⌘R. Copy the resulting `.app` to `/Applications` and enable "Abrir al iniciar sesión" from the menu.
 
 ## Why no App Store
 
@@ -47,4 +47,4 @@ Writing to `com.apple.screencapture` requires the app to run **outside** the App
 scripts/release.sh
 ```
 
-Produces `dist/ScreenshotFormat-<version>.dmg`, signed with Developer ID, notarized and stapled. One-time setup is described at the top of the script.
+Produces `dist/ShotSwitch-<version>.dmg`, signed with Developer ID, notarized and stapled. One-time setup is described at the top of the script.

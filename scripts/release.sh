@@ -1,17 +1,17 @@
 #!/bin/zsh
-# Build, sign (Developer ID), notarize, staple and package ScreenshotFormat as a DMG.
+# Build, sign (Developer ID), notarize, staple and package ShotSwitch as a DMG.
 #
 # One-time setup:
 #   1. Xcode > Settings > Accounts > Manage Certificates > + > Developer ID Application
-#   2. xcrun notarytool store-credentials ScreenshotFormat \
+#   2. xcrun notarytool store-credentials ShotSwitch \
 #        --key ~/.appstoreconnect/private_keys/AuthKey_XXXX.p8 --key-id XXXX --issuer <issuer-id>
 #
-# Usage: scripts/release.sh            -> dist/ScreenshotFormat-<version>.dmg
+# Usage: scripts/release.sh            -> dist/ShotSwitch-<version>.dmg
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
-SCHEME=ScreenshotFormat
-PROFILE=ScreenshotFormat          # notarytool keychain profile
+SCHEME=ShotSwitch
+PROFILE=ShotSwitch          # notarytool keychain profile
 BUILD=build
 DIST=dist
 ARCHIVE=$BUILD/$SCHEME.xcarchive

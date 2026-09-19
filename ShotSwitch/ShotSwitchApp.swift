@@ -1,12 +1,12 @@
 //
-//  ScreenshotFormatApp.swift
-//  ScreenshotFormat
+//  ShotSwitchApp.swift
+//  ShotSwitch
 //
 
 import SwiftUI
 
 @main
-struct ScreenshotFormatApp: App {
+struct ShotSwitchApp: App {
     @StateObject private var store = ScreenshotFormatStore()
 
     var body: some Scene {

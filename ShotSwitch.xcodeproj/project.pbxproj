@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		640A8C6D305E987300128B35 /* ScreenshotFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		640A8C6D305E987300128B35 /* ShotSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShotSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		640A8C6F305E987300128B35 /* ScreenshotFormat */ = {
+		640A8C6F305E987300128B35 /* ShotSwitch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScreenshotFormat;
+			path = ShotSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +30,7 @@
 		640A8C64305E987300128B35 = {
 			isa = PBXGroup;
 			children = (
-				640A8C6F305E987300128B35 /* ScreenshotFormat */,
+				640A8C6F305E987300128B35 /* ShotSwitch */,
 				640A8C6E305E987300128B35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		640A8C6E305E987300128B35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				640A8C6D305E987300128B35 /* ScreenshotFormat.app */,
+				640A8C6D305E987300128B35 /* ShotSwitch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		640A8C6C305E987300128B35 /* ScreenshotFormat */ = {
+		640A8C6C305E987300128B35 /* ShotSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 640A8C78305E987500128B35 /* Build configuration list for PBXNativeTarget "ScreenshotFormat" */;
+			buildConfigurationList = 640A8C78305E987500128B35 /* Build configuration list for PBXNativeTarget "ShotSwitch" */;
 			buildPhases = (
 				640A8C69305E987300128B35 /* Sources */,
 				640A8C6A305E987300128B35 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				640A8C6F305E987300128B35 /* ScreenshotFormat */,
+				640A8C6F305E987300128B35 /* ShotSwitch */,
 			);
-			name = ScreenshotFormat;
-			productName = ScreenshotFormat;
-			productReference = 640A8C6D305E987300128B35 /* ScreenshotFormat.app */;
+			name = ShotSwitch;
+			productName = ShotSwitch;
+			productReference = 640A8C6D305E987300128B35 /* ShotSwitch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 640A8C68305E987300128B35 /* Build configuration list for PBXProject "ScreenshotFormat" */;
+			buildConfigurationList = 640A8C68305E987300128B35 /* Build configuration list for PBXProject "ShotSwitch" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				640A8C6C305E987300128B35 /* ScreenshotFormat */,
+				640A8C6C305E987300128B35 /* ShotSwitch */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		640A8C76305E987500128B35 /* Debug configuration for PBXProject "ScreenshotFormat" */ = {
+		640A8C76305E987500128B35 /* Debug configuration for PBXProject "ShotSwitch" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		640A8C77305E987500128B35 /* Release configuration for PBXProject "ScreenshotFormat" */ = {
+		640A8C77305E987500128B35 /* Release configuration for PBXProject "ShotSwitch" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		640A8C79305E987500128B35 /* Debug configuration for PBXNativeTarget "ScreenshotFormat" */ = {
+		640A8C79305E987500128B35 /* Debug configuration for PBXNativeTarget "ShotSwitch" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -257,7 +257,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ivancabezon.ScreenshotFormat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivancabezon.ShotSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -269,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		640A8C7A305E987500128B35 /* Release configuration for PBXNativeTarget "ScreenshotFormat" */ = {
+		640A8C7A305E987500128B35 /* Release configuration for PBXNativeTarget "ShotSwitch" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +291,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ivancabezon.ScreenshotFormat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivancabezon.ShotSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -306,19 +306,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		640A8C68305E987300128B35 /* Build configuration list for PBXProject "ScreenshotFormat" */ = {
+		640A8C68305E987300128B35 /* Build configuration list for PBXProject "ShotSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				640A8C76305E987500128B35 /* Debug configuration for PBXProject "ScreenshotFormat" */,
-				640A8C77305E987500128B35 /* Release configuration for PBXProject "ScreenshotFormat" */,
+				640A8C76305E987500128B35 /* Debug configuration for PBXProject "ShotSwitch" */,
+				640A8C77305E987500128B35 /* Release configuration for PBXProject "ShotSwitch" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		640A8C78305E987500128B35 /* Build configuration list for PBXNativeTarget "ScreenshotFormat" */ = {
+		640A8C78305E987500128B35 /* Build configuration list for PBXNativeTarget "ShotSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				640A8C79305E987500128B35 /* Debug configuration for PBXNativeTarget "ScreenshotFormat" */,
-				640A8C7A305E987500128B35 /* Release configuration for PBXNativeTarget "ScreenshotFormat" */,
+				640A8C79305E987500128B35 /* Debug configuration for PBXNativeTarget "ShotSwitch" */,
+				640A8C7A305E987500128B35 /* Release configuration for PBXNativeTarget "ShotSwitch" */,
 			);
 			defaultConfigurationName = Release;
 		};

@@ -1,6 +1,6 @@
 //
 //  ScreenshotFormatStore.swift
-//  ScreenshotFormat
+//  ShotSwitch
 //
 
 import Foundation
