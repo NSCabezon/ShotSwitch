@@ -1,5 +1,8 @@
 # ShotSwitch
 
+[![Download](https://img.shields.io/github/v/release/NSCabezon/ShotSwitch?label=download&color=blue)](https://github.com/NSCabezon/ShotSwitch/releases/latest)
+[![Tip jar](https://img.shields.io/badge/tip%20jar-PayPal-00457C?logo=paypal)](https://paypal.me/nscabezon)
+
 Menu bar app for macOS that switches the screenshot format (⌘⇧3 / ⌘⇧4 / ⌘⇧5) with one click.
 
 Use HEIC day to day (smaller files, HDR) and flip to PNG when you need to share a capture with people on Windows, Linux, Discord, or a CLI tool that can't open HEIC.
@@ -40,6 +43,10 @@ xcodebuild -project ShotSwitch.xcodeproj -scheme ShotSwitch -configuration Relea
 ```
 
 Or open `ShotSwitch.xcodeproj` in Xcode and press ⌘R. Copy the resulting `.app` to `/Applications` and enable "Abrir al iniciar sesión" from the menu.
+
+## Support
+
+ShotSwitch is free. If it saves you a trip to the Terminal, you can buy me a coffee: [paypal.me/nscabezon](https://paypal.me/nscabezon).
 
 ## Why no App Store
 
