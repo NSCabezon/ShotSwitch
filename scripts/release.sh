@@ -43,6 +43,7 @@ cp -R "$APP" "$STAGE/"
 ln -s /Applications "$STAGE/Applications"
 rm -f "$DMG"
 hdiutil create -volname "$SCHEME" -srcfolder "$STAGE" -ov -format UDZO "$DMG" -quiet
+codesign --sign "Developer ID Application" --timestamp "$DMG"
 
 echo "▸ Notarize DMG"
 xcrun notarytool submit "$DMG" --keychain-profile "$PROFILE" --wait
