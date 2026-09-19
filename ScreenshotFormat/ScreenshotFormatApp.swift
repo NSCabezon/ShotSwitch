@@ -2,16 +2,19 @@
 //  ScreenshotFormatApp.swift
 //  ScreenshotFormat
 //
-//  Created by nscabezon on 19/09/2026.
-//
 
 import SwiftUI
 
 @main
 struct ScreenshotFormatApp: App {
+    @StateObject private var store = ScreenshotFormatStore()
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra {
+            MenuContent(store: store)
+        } label: {
+            Label(store.current.menuTitle, systemImage: "camera.viewfinder")
+                .labelStyle(.titleAndIcon)
         }
     }
 }
