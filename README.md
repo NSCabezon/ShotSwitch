@@ -4,6 +4,10 @@ Menu bar app for macOS that switches the screenshot format (⌘⇧3 / ⌘⇧4 / 
 
 Use HEIC day to day (smaller files, HDR) and flip to PNG when you need to share a capture with people on Windows, Linux, Discord, or a CLI tool that can't open HEIC.
 
+## Download
+
+Grab the latest DMG from [Releases](https://github.com/NSCabezon/ShotSwitch/releases/latest). Open it, drag ShotSwitch to Applications. Signed with Developer ID and notarized.
+
 ## Features
 
 - Menu bar item shows the current format (`HEIC`, `PNG`, …).
